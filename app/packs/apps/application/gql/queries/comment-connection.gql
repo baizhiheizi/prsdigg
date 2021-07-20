@@ -1,0 +1,41 @@
+query CommentConnection(
+  $commentableType: String
+  $commentableId: ID
+  $authorMixinId: String
+  $orderBy: String
+  $after: String
+) {
+  commentConnection(
+    commentableType: $commentableType
+    commentableId: $commentableId
+    authorMixinId: $authorMixinId
+    orderBy: $orderBy
+    after: $after
+  ) {
+    nodes {
+      id
+      content
+      deletedAt
+      upvotesCount
+      downvotesCount
+      upvoted
+      downvoted
+      author {
+        name
+        avatar
+        mixinId
+        bio
+        createdAt
+      }
+      commentable {
+        uuid
+        title
+      }
+      createdAt
+    }
+    pageInfo {
+      hasNextPage
+      endCursor
+    }
+  }
+}

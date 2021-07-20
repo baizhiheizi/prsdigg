@@ -1,0 +1,13 @@
+query MyStatistics {
+  myStatistics {
+    articlesCount
+    boughtArticlesCount
+    authorRevenueTotalPrs
+    readerRevenueTotalPrs
+    authorRevenueTotalBtc
+    readerRevenueTotalBtc
+    authorRevenueTotalUsd
+    readerRevenueTotalUsd
+    paymentTotalUsd
+  }
+}

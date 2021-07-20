@@ -1,0 +1,45 @@
+ja:
+  notification: 通知
+  notifications:
+    article_published_notification:
+      published: 記事が投稿されました
+    article_bought_notification:
+      bought: 記事が購入されました
+    article_rewarded_notification:
+      rewarded: リワードが付与されました
+    article_blocked_notification:
+      blocked: 'あなたの記事は運営によってブロックされました:'
+    article_unblocked_notification:
+      unblocked: 'あなたの記事のブロックが解除されました:'
+    comment_created_notification:
+      commented: コメントされました
+    comment_deleted_notification:
+      deleted: あなたのコメントは運営によって削除されました
+    tagging_created_notification:
+      has_new_article: 新しい記事があります
+    payment_created_notification:
+      paid: 支払い完了しました
+    order_created_notification:
+      bought: 購入完了しました
+      rewarded: リワードが付与されました
+    swap_order_swapping_notification:
+      swapping: 'スワップ:'
+    swap_order_finished_notification:
+      swapped: 'スワップ成功:'
+      rejected: スワップが拒否されましたが、すぐに払い戻しされます
+    transfer_processed_notification:
+      received: 受け取り済み
+      author_revenue: 作者収入
+      reader_revenue: 読者収入
+      payment_refund: 払い戻し
+      bonus: ボーナス
+      swap_change: スワップ変動
+      swap_refund: スワップ後の払い戻し
+    authoring_subscribe_action_created_notification:
+      subscribed: 新しく投稿した記事がフォローされました
+    reading_subscribe_action_created_notification:
+      subscribed: 新しく購入した記事がフォローされました
+    user_banned_notification:
+      banned: あなたのアカウントは運営により凍結されています。記事の作成やコメントの投稿はできません。
+    user_unbanned_notification:
+      unbanned: あなたのアカウントの凍結が解除されました。記事の作成やコメントの投稿が可能です。

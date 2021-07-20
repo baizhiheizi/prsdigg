@@ -1,0 +1,209 @@
+zh-CN:
+  load_more: 加载更多
+  subscribe: 订阅
+  unsubscribe: 取消订阅
+  share: 分享
+  detail: 详情
+  edit: 编辑
+  create: 创建
+  update: 更新
+  view: 查看
+  cancel: 取消
+  paid: 支付了
+  delete: 删除
+  pay_in_mixin: Mixin 支付
+  pay_with_messenger: 请使用 Mixin Messenger 扫码支付
+  view_with_messenger: 请使用 Mixin Messenger 扫码查看
+  success_submitted: 成功提交
+  success_subscribed: 成功订阅
+  success_unsubscribed: 已取消订阅
+  success_hidden_article: 文章已隐藏
+  success_published_article: 文章已公开
+  success_updated: 成功更新
+  success_copied: 成功复制
+  success_deleted: 成功删除
+  success_paid: 支付成功，感谢支持！
+  read: 读文章
+  write: 写文章
+  search: 搜索
+  rules: 规则
+  fair: 公示
+  community: 社区
+  open_source: 开源
+  dashboard: 个人中心
+  login: 登录
+  logout: 登出
+  order_by_popularity: 综合排序
+  order_by_lately: 最新发表
+  order_by_revenue: 营收最多
+  tags: 话题
+  comments_zone: 评论区
+  more_to_read: 以下还有 90% 内容
+  pay: 支付
+  to_continue_reading: 继续阅读
+  and_receive_early_reader_revenue: 并享受早期读者奖励
+  pay_warning: 文章为作者在顶瓜瓜平台出售的虚拟商品，一经付款，概不退还。谨慎付款，以防被骗。
+  be_the_first_reader: 成为第一位读者
+  pay_to_read: 付费阅读
+  already_paid: 已经支付
+  try_to: 试试
+  refresh: 刷新
+  pay_via_swap_tips: 您也可以用其他主流币支付
+  please_login: 请先登录
+  love_thie_article: 大爱此文
+  share: 分享
+  signature: 签名
+  swap_supported_by: Swap 服务来自
+  polling_payment: 支付结果查询中
+  refund_warning: 支付失败，已原路退款。请重新支付。
+  buy_article: 购买文章
+  reward: 赞赏
+  finish: 完成
+  later: 再想想
+  times_bought: 次购买
+  times_reward: 次赞赏
+  published: 已发表
+  bought: 已购买
+  commented: 已评论
+  search: 搜索
+  search_placeholder: 请输入文章标题/简介/作者/话题
+  users_count: 用户总量
+  articles_count: 文章总数
+  author_revenue_total: 作者收益(现价)
+  reader_revenue_total: 读者收益(现价)
+  platform_revenue: 平台收益
+  author_revenue: 作者收益
+  readers_revenue: 读者收益
+  references_revenue: 引用收益
+  revenue_chart: 平台收益曲线(USD)
+  transactions: 转账记录
+  rules_content: |
+    ### 顶瓜瓜 规则介绍
+
+    顶瓜瓜 尝试建立一个**作者**与**读者**共赢的**平台**。
+
+    我们认为，一篇文章产生的价值是由作者和读者共同构成的，但是实际情况是，读者的付出并没有得到很好体现，尤其是**早期读者**。因此，与其他平台最大的不同是，顶瓜瓜 引入**早期读者奖励**的机制。
+
+    具体的规则如下：
+
+    1. 用户可以在**平台**上发布文章，成为**作者**；
+
+    2. 所有文章均为付费文章，使用*PressOne Token*或*Bitcoin*计价；
+
+    3. 用户可以付费购买文章，即成为文章的**读者**；
+
+    4. 文章每获得一笔新收入，其中 40% 将作为**早期读者奖励**，按付费比例分配给每一位**早期读者**，10% 将作为**平台**的手续费，剩余部分作为**作者**的收益；
+
+    5. **读者**也可以通过打赏的手段增加对某篇文章的付费，以提高自己在奖励中的分配比例。
+
+    举个例子：
+
+    用户 A 在平台上发布了一篇文章 X 定价 10 PRS。
+
+    用户 B 付费 10 PRS 购买了文章 X，获得了文章的阅读权。
+
+    文章 X 因此获得 10 PRS 的收入，因为 B 是第一位读者，没有更早期的读者，所以没有早期读者奖励；其中 1 PRS（10%）作为平台的手续费；剩余 9 PRS 全部作为作者收益，转入作者 A 的账号。
+
+    用户 C 在 B 之后付费 10 PRS 购买了文章 X，文章 X 因此再次获得 10 PRS 的收入。
+
+    其中 4 PRS（40%）将作为早期读者奖励，这时早期读者只有用户 B 一人，所以 B 独占了这 40% 的奖励；平台同样收取 1 PRS（10%）作为手续费；剩余 5 PRS 作为作者收益。
+
+    在 C 之后，用户 D 同样付费 10 PRS 购买了文章 X。
+
+    同样地，有 4 PRS（40%）将作为早期读者奖励，这时的早期读者有两人，即 B 和 C，二人此前为文章 X 各自付费了 10 PRS，因此 B 和 C 都将分别得到 \`4 * 10 / (10 + 10) = 2\` PRS 的奖励。
+
+    平台同样收取 1 PRS（10%）作为手续费；剩余 5 PRS 作为作者收益。
+
+    以此类推。
+
+    值得提醒的是，除了购买文章的付费，其他付费行为（例如打赏）的付费，也会计入早期读者奖励的分配比例。
+  mixin_group: 顶瓜瓜中文社区
+  comments: 读者评论
+  subscribe_comments: 订阅新评论
+  no_comments: 暂无评论
+  comment_deleted: 此评论已被管理员删除
+  quote: 引用
+  from: 来自
+  desc: 时间倒序
+  asc: 时间正序
+  upvotes: 点赞最多
+  write_something_first: 先写点什么
+  confirm_to_submit: 确定要提交评论吗？
+  submit: 提交
+  markdown_supported: 支持 Markdown 格式
+  overview: 总览
+  notifications_manage: 消息通知
+  settings: 个人设置
+  articles_manage: 文章管理
+  subscriptions_manage: 订阅管理
+  revenue_manage: 收益管理
+  orders_manage: 订单管理
+  comments_manage: 评论管理
+  back: 返回
+  article_detail: 文章详情
+  new_article: 创建文章
+  edit_article: 文章编辑
+  clear_all: 清空
+  read_all: 已读
+  confirm_to_publish: 确定要将文章公开吗？
+  confirm_to_hide: 确定要将文章隐藏吗？已购读者将不受影响。
+  publish: 公开
+  hide: 隐藏
+  hidden: 已隐藏
+  blocked: 已屏蔽
+  buy_records: 购买记录
+  reward_records: 赞赏记录
+  cite_records: 引用记录
+  comment_records: 评论记录
+  bought_article: 购买了文章
+  rewarded_article: 赞赏了文章
+  cited_article: 引用了文章
+  authoring_subscriptions: 作者
+  authoring_subscriptions_tip: 订阅的作者发表新文章时，您将收到通知
+  reading_subscriptions: 读者
+  reading_subscriptions_tip: 订阅的读者购买新文章时，您将收到通知
+  commenting_subscriptions: 评论
+  commenting_subscriptions_tip: 订阅的文章有新评论时，您将收到通知
+  tag_subscriptions: 话题
+  tag_subscriptions_tip: 该话题下有新文章时，你将收到通知
+  confirm_to_unsubscribe: 确定要取消订阅吗？
+  author_transfers: 作者收益
+  reader_transfers: 读者收益
+  payments: 支付记录
+  swap_orders: Swap 订单
+  access_token: Access Token
+  tips_of_general_notifications: 您可以自定义消息通知的方式，网站通知、Mixin 机器人消息通知和 Webhook（开发中）。
+  tips_of_article_published_notifications: 订阅的作者发表新文章时，您将收到通知。
+  tips_of_article_bought_notifications: 订阅的读者购买新文章时，您将收到通知。
+  tips_of_article_rewarded_notifications: 订阅的读者赞赏新文章时，您将收到通知。
+  tips_of_tagging_created_notifications: 订阅的话题有新文章时，您将收到通知。
+  tips_of_comment_created_notifications: 订阅的文章有新评论时，您将收到通知。
+  tips_of_transfer_processed_notifications: 有新的转账（包括文章收益、退款等）时，您将收到通知。
+  confirm_to_generate_token: Access Token 可提供给第三方应用以管理您的文章，确定需要生成新的 Token 吗？
+  generate_new_token: 生成新 Token
+  token_memo_placeholader: 备注一下 Token
+  token_generated_tips: 新 Access Token 已经生成
+  token_security_tips: 请妥善保管您的 Access Token，关闭后将不再显示。如果丢失请重新生成。
+  confirm_to_delete_token: 确认要删除 Access Token 吗？
+  copy: 复制
+  present_value: 按当前价格折算
+  per_price_when_paid: 按支付时价格折算
+  invalid_authorization: 授权失效
+  please_confirm_all_authorizations_required: 请确认所有必要的授权
+  reauthorize: 重新授权
+  no_access: 不能访问
+  sorry_you_are_not_authorized_to_access_this_application: 抱歉，您无法使用该应用
+  mixin_bot: Mixin 机器人
+  comming_soon: 即将发布
+  you_will_get_1000_satoshi_airdrop_once_we_launched: |
+    🎉 正式发布时
+    您将收到 1000 Satoshi 空投
+  login_to_earn_btc: 登录赢取 BTC
+  login_right_now_to_earn_btc_airdrop: 立即登录，当正式发布时，您将收到 BTC 空投
+  copied: 已复制
+  mixin_contact: Mixin
+  copy_url: 复制URL
+  subscribed: 已订阅
+  article_references: 引用文章
+  referenced_by: 相关文章
+  login_via_mixin: 使用 Mixin Messenger 登录

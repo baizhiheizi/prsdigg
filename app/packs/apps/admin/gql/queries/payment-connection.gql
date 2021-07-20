@@ -1,0 +1,39 @@
+query AdminPaymentConnection(
+  $payerMixinUuid: String
+  $state: String
+  $after: String
+) {
+  adminPaymentConnection(
+    payerMixinUuid: $payerMixinUuid
+    state: $state
+    after: $after
+  ) {
+    nodes {
+      traceId
+      snapshotId
+      amount
+      state
+      assetId
+      opponentId
+      decryptedMemo
+      payer {
+        name
+        mixinId
+        avatar
+      }
+      order {
+        orderType
+      }
+      currency {
+        assetId
+        iconUrl
+        symbol
+      }
+      createdAt
+    }
+    pageInfo {
+      hasNextPage
+      endCursor
+    }
+  }
+}

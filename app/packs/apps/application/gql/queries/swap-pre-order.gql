@@ -1,0 +1,20 @@
+query SwapPreOrder(
+  $payAssetId: String!
+  $fillAssetId: String!
+  $amount: Float!
+) {
+  swapPreOrder(
+    payAssetId: $payAssetId
+    fillAssetId: $fillAssetId
+    amount: $amount
+  ) {
+    state
+    funds
+    amount
+    minAmount
+    fillAssetId
+    payAssetId
+    priceImpact
+    routePrice
+  }
+}

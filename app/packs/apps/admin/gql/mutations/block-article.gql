@@ -1,0 +1,7 @@
+mutation AdminBlockArticle($input: AdminBlockArticleMutationInput!) {
+  adminBlockArticle(input: $input) {
+    id
+    uuid
+    state
+  }
+}
