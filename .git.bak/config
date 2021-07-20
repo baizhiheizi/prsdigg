@@ -1,0 +1,15 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://github.com/baizhiheizi/prsdigg
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[gc]
+	auto = 0
+[http "https://github.com/"]
+	extraheader = AUTHORIZATION: basic eC1hY2Nlc3MtdG9rZW46Z2hzXzczMGtoNThvNHhXRVNrS2dKQ0pqVmdlQ1k3QndwdjIyOEpNWQ==
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master

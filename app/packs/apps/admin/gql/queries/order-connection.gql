@@ -1,0 +1,50 @@
+query AdminOrderConnection(
+  $itemId: ID
+  $itemType: String
+  $state: String
+  $after: String
+) {
+  adminOrderConnection(
+    itemId: $itemId
+    itemType: $itemType
+    state: $state
+    after: $after
+  ) {
+    nodes {
+      id
+      traceId
+      orderType
+      itemId
+      itemType
+      state
+      total
+      seller {
+        name
+        avatar
+        mixinId
+      }
+      buyer {
+        name
+        avatar
+        mixinId
+      }
+      currency {
+        assetId
+        iconUrl
+        symbol
+      }
+      createdAt
+      itemType
+      item {
+        ... on Article {
+          title
+          uuid
+        }
+      }
+    }
+    pageInfo {
+      hasNextPage
+      endCursor
+    }
+  }
+}

@@ -1,0 +1,23 @@
+query UserArticleConnection($mixinId: ID!, $type: String!, $after: String) {
+  userArticleConnection(mixinId: $mixinId, type: $type, after: $after) {
+    nodes {
+      uuid
+      title
+      intro
+      price
+      revenueUsd
+      revenueBtc
+      ordersCount
+      state
+      author {
+        name
+        avatar
+      }
+      createdAt
+    }
+    pageInfo {
+      hasNextPage
+      endCursor
+    }
+  }
+}

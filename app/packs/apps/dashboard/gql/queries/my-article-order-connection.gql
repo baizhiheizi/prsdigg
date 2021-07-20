@@ -1,0 +1,34 @@
+query MyArticleOrderConnection(
+  $uuid: ID!
+  $orderType: String!
+  $after: String
+) {
+  myArticleOrderConnection(uuid: $uuid, orderType: $orderType, after: $after) {
+    nodes {
+      traceId
+      buyer {
+        avatar
+        name
+      }
+      citer {
+        ... on Article {
+          uuid
+          title
+        }
+      }
+      orderType
+      state
+      total
+      currency {
+        assetId
+        symbol
+        iconUrl
+      }
+      createdAt
+    }
+    pageInfo {
+      hasNextPage
+      endCursor
+    }
+  }
+}

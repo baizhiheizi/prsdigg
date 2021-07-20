@@ -1,0 +1,37 @@
+query ArticleConnection($filter: String!, $query: String, $after: String) {
+  articleConnection(filter: $filter, query: $query, after: $after) {
+    nodes {
+      uuid
+      title
+      intro
+      price
+      priceUsd
+      revenueBtc
+      revenueUsd
+      ordersCount
+      commentsCount
+      upvoteRatio
+      tags {
+        id
+        name
+        color
+      }
+      author {
+        name
+        avatar
+        mixinId
+        bio
+      }
+      currency {
+        assetId
+        symbol
+        iconUrl
+      }
+      createdAt
+    }
+    pageInfo {
+      hasNextPage
+      endCursor
+    }
+  }
+}

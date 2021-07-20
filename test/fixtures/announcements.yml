@@ -1,0 +1,17 @@
+# == Schema Information
+#
+# Table name: announcements
+#
+#  id           :bigint           not null, primary key
+#  content      :text
+#  delivered_at :datetime
+#  message_type :string
+#  state        :string
+#  created_at   :datetime         not null
+#  updated_at   :datetime         not null
+#
+one: {}
+# column: value
+#
+two: {}
+# column: value
